@@ -19,9 +19,44 @@
 </head>
 <body>
     <header>
-
+      <h1>Login-Helper</h1> <!--Nosso cabeçalho só terá o nome do titulo-->
     </header>
     <main>
+        <form>
+            <!--Atalho para criar 4 sections: digite "section*4"-->
+            <section class:"inputs-container"><!--é nesta section onde ficarão os campos de email e senha-->
+                <input type="email" placeholder="example@email.com"> 
+
+                <div class="password-container"></div> <!--Atalho para criar div: ".nomedadiv"-->
+                <input type="password" id="field-password" class="field-password" placeholder="*******">
+                 <!--Atalho para criar 3 section: digite "i*3"-->
+                <i></i>
+                <i></i>
+            </section>
+            <section class:"password-infos"><!--section onde ficarão os campos " esqueceu senha/lembrar senha"-->
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha?</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+
+            </section><!--section onde ficará o botão de Login-->
+            <section>
+                <button id="btn-login">Login</button>
+            </section>
+            <section class:"links-container"><!--section onde ficarão os icones(facebook, instagram etc..)-->
+                <span>Ou entre com:</span>
+                <aside>
+                    <a href="#"><i></i> </a>
+                    <a href="#"><i></i></a>
+                    <a href="#"><i></i></a>
+                </aside>
+            </section>
+            <footer>
+                <hr><!--tag pra gerar uma linha na página-->
+                <span>Ainda não possui uma conta?<a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
 
     </main>
 </body>
