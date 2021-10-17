@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins";
     text-decoration: none;
+    color: white;
 }
 
 header {
@@ -30,8 +31,8 @@ main {
 
 main form {
     margin-top: 5%;
-    width: 40%;
-    height: 75vh;
+    width: 50%;
+    height: 85vh;
     background-color: rgba(0, 0, 0, 0.589);
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
@@ -42,7 +43,7 @@ main form {
 }
 
 main form .inputs-container {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +51,7 @@ main form .inputs-container {
 }
 
 main form .inputs-container input {
-    width: 90%;
+    width: 100%;
     height: 45px;
     padding: 8px 15px;
     border: 0;
@@ -83,4 +84,101 @@ main form .password-container i {
 
 main form .password-container i #eye {
     display: none;
+}
+
+main form .password-infos {
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form .password-infos a {
+    transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover {
+    color: #00e1ff;
+}
+
+main form button {
+    background-color: #00e1ff;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 5%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+main form button:hover {
+    background: white;
+    color: #00e1ff;
+}
+
+main form .links-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+main form .links-container span {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+main form .links-container aside {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main form .links-container aside i {
+    font-size: 1.6em;
+    background-color: white;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 3.3s ease-in-out;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .links-container aside .fa-google {
+    color: red;
+}
+
+main form .links-container aside .fa-google:hover {
+    background-color: red;
+    color: white;
+}
+
+main form .links-container aside .fa-linkedin {
+    color: blue;
+}
+
+main form .links-container aside .fa-linkedin:hover {
+    background-color: blue;
+    color: white;
+}
+
+main form .links-container aside .fa-facebook {
+    color: #00e1ff;
+}
+
+main form .links-container aside .fa-facebook:hover {
+    background-color: #00e1ff;
+    color: white;
 }
